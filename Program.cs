@@ -1,0 +1,17 @@
+﻿using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        string city = "Paraguay";
+        char punctuationMarks = ',';
+        bool isEnemy = false;
+        byte numbers = 2;
+        sbyte height = -4;
+        short coordinates = 512;
+        ushort population = 22312;
+        double pi = 3.14;
+        ulong health = 3388596;
+        long crystals = 0;
+    }
+}
