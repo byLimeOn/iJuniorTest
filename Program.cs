@@ -10,8 +10,8 @@ class Program
         Console.WriteLine("Сколько кристаллов нужно?");
         int needCrystals = Convert.ToInt32(Console.ReadLine());
         int price = needCrystals * costOfCrystals;
-        int oddGold = gold - price;
-        int oddCrystals = allCrystals - needCrystals;
-        Console.WriteLine($"Ваши {price} золота за {needCrystals} кристаллов. Сдача " + oddGold + " золота. Ваш чек пожалуйста. У нас осталось ещё " + oddCrystals + " кристаллов");
+        gold -= price;
+        allCrystals -= needCrystals;
+        Console.WriteLine($"Ваши {price} золота за {needCrystals} кристаллов. Сдача " + gold + " золота. Ваш чек пожалуйста. У нас осталось ещё " + allCrystals + " кристаллов");
     }
 }
