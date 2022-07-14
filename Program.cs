@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 class Program
 {
     static void Main(string[] args)
     {
         int onePeopleTime = 10;
-        Console.Write("Войдя в поликлинику? Вы видите толпу старушек. Окинув взглядом, насчиталось ");
+        Console.Write("Войдя в поликлинику, Вы видите толпу старушек. Окинув взглядом, насчиталось ");
         int allPeople = Convert.ToInt32(Console.ReadLine());
         int inTurnTime = allPeople * onePeopleTime;
         int hours = inTurnTime / 60;
