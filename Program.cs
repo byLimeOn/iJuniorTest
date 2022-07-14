@@ -12,6 +12,6 @@ class Program
         int price = needCrystals * costOfCrystals;
         int oddGold = gold - price;
         int oddCrystals = allCrystals - needCrystals;
-        Console.WriteLine("Ваши " + price + $" золота за {needCrystals} кристаллов. Сдача " + oddGold + " золота. Ваш чек пожалуйста. У нас осталось ещё " + oddCrystals + " кристаллов");
+        Console.WriteLine($"Ваши {price} золота за {needCrystals} кристаллов. Сдача " + oddGold + " золота. Ваш чек пожалуйста. У нас осталось ещё " + oddCrystals + " кристаллов");
     }
 }
